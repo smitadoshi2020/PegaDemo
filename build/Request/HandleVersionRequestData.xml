@@ -1,0 +1,9 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:urn="urn:PegaRULES:SOAP:PreBuildServicePackage:Service">
+   <soap:Header/>
+   <soap:Body>
+      <urn:InitiateLockingProcess>
+         <ProductInsKey>RULE-ADMIN-PRODUCT SCRUM_JUNERELEASE_2018 01.01.01 #20180418T014230.134 GMT</ProductInsKey>
+      </urn:InitiateLockingProcess>
+   </soap:Body>
+</soap:Envelope>
+

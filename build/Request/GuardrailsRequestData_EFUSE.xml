@@ -1,0 +1,15 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:urn="urn:PegaRULES:SOAP:GuardrailsServicePkg:Services">
+   <soap:Header/>
+   <soap:Body>
+      <urn:GuardrailsService>
+         <GuardrailsInput>
+            <!--1 or more repetitions:-->
+            <ApplicationList>
+               <ApplicationName>COBFW</ApplicationName>
+               <ApplicationVersion>01.01.01</ApplicationVersion>
+            </ApplicationList>
+           <ProductFileKey>RULE-ADMIN-PRODUCT DEVOPSGUARDRAILSTEST 01-01-01 #20190517T081746.787 GMT</ProductFileKey>  
+         </GuardrailsInput>
+      </urn:GuardrailsService>
+   </soap:Body>
+</soap:Envelope>

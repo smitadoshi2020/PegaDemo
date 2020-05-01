@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<soap:Envelope
+xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Body>
+<ns:PostDeployVerifyResponse xmlns:ns="urn:PegaRULES:SOAP:RuleCountCompare:v1">
+<PostDeployStatus>Success: Report file Path is- /apps/Artifacts/CompareResult20180309T142438.xlsx</PostDeployStatus>
+<DoesRuleCountMatch>No. Reason:Rule Count Mismatch</DoesRuleCountMatch>
+</ns:PostDeployVerifyResponse>
+</soap:Body>
+</soap:Envelope>

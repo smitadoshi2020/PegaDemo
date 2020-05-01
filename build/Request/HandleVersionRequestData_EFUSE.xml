@@ -1,0 +1,8 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:urn="urn:PegaRULES:SOAP:PreBuildServicePackage:Service">
+   <soap:Header/>
+   <soap:Body>
+      <urn:InitiateLockingProcess>
+         <ProductInsKey>RULE-ADMIN-PRODUCT DEVOPSTEST 01-01-01 #20190516T101108.487 GMT</ProductInsKey>
+      </urn:InitiateLockingProcess>
+   </soap:Body>
+</soap:Envelope>

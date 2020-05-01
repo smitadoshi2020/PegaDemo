@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soap:Body>
+      <ns:RMTableUpdateService xmlns:ns="urn:PegaRULES:SOAP:ReleaseManagementPkg:V1">
+         <RMTableInput>
+           <EnvName></EnvName>
+           <BuildNumber></BuildNumber>
+           <ProductForFeatureID></ProductForFeatureID>
+         </RMTableInput>
+      </ns:RMTableUpdateService>
+   </soap:Body>
+</soap:Envelope>

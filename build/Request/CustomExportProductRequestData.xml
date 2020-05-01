@@ -1,0 +1,8 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:urn="urn:PegaRULES:SOAP:ExportRAPPackage:Service">
+   <soap:Header/>
+   <soap:Body>
+      <urn:InitiateServiceExportRAP>
+         <ProductInsKey>RULE-ADMIN-PRODUCT SCRUM_APRILRELEASE_2018 01.01.01 #20180213T233610.699 GMT</ProductInsKey>
+      </urn:InitiateServiceExportRAP>
+   </soap:Body>
+</soap:Envelope>

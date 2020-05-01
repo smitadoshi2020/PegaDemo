@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<soap:Envelope
+xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Body>
+<ns:InitiateLockingProcessResponse xmlns:ns="urn:PegaRULES:SOAP:PreBuildServicePackage:Service">
+<ProductInsKey>RULE-ADMIN-PRODUCT POSTDEPLOYRULECOUNTAPI 20180117 #20180117T091240.033 GMT</ProductInsKey>
+<HandleVersionStatus>Success: Product is ready to be build. 0 Version(s) has been locked.</HandleVersionStatus>
+</ns:InitiateLockingProcessResponse>
+</soap:Body>
+</soap:Envelope>

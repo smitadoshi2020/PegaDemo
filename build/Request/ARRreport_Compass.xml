@@ -1,0 +1,50 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:urn="urn:PegaRULES:SOAP:BrainsControllerServicePkg:Services">
+   <soap:Header/>
+   <soap:Body>
+      <urn:ProcessBrainsData>
+         <Part>
+            <ApplicationScope>Application</ApplicationScope>
+            <RuleSetData>
+               <RuleSetName></RuleSetName>
+               <RuleSetScope></RuleSetScope>
+               <RuleSetVersion></RuleSetVersion>
+               <RuleSetLowerVersion></RuleSetLowerVersion>
+               <RuleSetHigherVersion></RuleSetHigherVersion>
+            </RuleSetData>
+            <ApplicationData>
+               <ApplicationName>AntmCPMHCSuper</ApplicationName>
+               <ApplicationVersion>01.01.01</ApplicationVersion>
+               <!--1 or more repetitions:-->
+               <RuleSetList>
+                  <RuleSetName>AntmCSFWGlobal</RuleSetName>
+                  <RuleSetHigherVersion></RuleSetHigherVersion>
+                  <RuleSetLowerVersion></RuleSetLowerVersion>
+               </RuleSetList>
+               <RuleSetList>
+                  <RuleSetName>AntmDelegate</RuleSetName>
+                   <RuleSetHigherVersion></RuleSetHigherVersion>
+                    <RuleSetLowerVersion></RuleSetLowerVersion>
+               </RuleSetList>
+                           <RuleSetList>
+                  <RuleSetName>AntmCSFW</RuleSetName>
+                   <RuleSetHigherVersion></RuleSetHigherVersion>
+                   <RuleSetLowerVersion></RuleSetLowerVersion>
+               </RuleSetList>
+                           <RuleSetList>
+                  <RuleSetName>AntmCS</RuleSetName>
+                   <RuleSetHigherVersion></RuleSetHigherVersion>
+                    <RuleSetLowerVersion></RuleSetLowerVersion>
+               </RuleSetList>
+                           <RuleSetList>
+                  <RuleSetName>AntmCTI</RuleSetName>
+                   <RuleSetHigherVersion></RuleSetHigherVersion>
+                    <RuleSetLowerVersion></RuleSetLowerVersion>
+               </RuleSetList>
+            </ApplicationData>
+            <!--Optional:-->
+            <UpdatedBy></UpdatedBy>
+         </Part>
+      </urn:ProcessBrainsData>
+   </soap:Body>
+</soap:Envelope>
+

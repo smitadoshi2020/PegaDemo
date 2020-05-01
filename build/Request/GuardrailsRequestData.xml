@@ -1,0 +1,21 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:urn="urn:PegaRULES:SOAP:GuardrailsServicePkg:Services">
+   <soap:Header/>
+   <soap:Body>
+      <urn:GuardrailsService>
+         <GuardrailsInput>
+            <!--1 or more repetitions:-->
+           
+           <ApplicationList>
+               <ApplicationName>COB</ApplicationName>
+               <ApplicationVersion>01.01.01</ApplicationVersion>
+            </ApplicationList>
+           
+           <ApplicationList>
+               <ApplicationName>COBFW</ApplicationName>
+               <ApplicationVersion>01.01.01</ApplicationVersion>
+            </ApplicationList>
+           
+         </GuardrailsInput>
+      </urn:GuardrailsService>
+   </soap:Body>
+</soap:Envelope>

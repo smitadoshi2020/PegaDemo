@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<soap:Envelope
+xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Body>
+<ns:GuardrailsServiceResponse xmlns:ns="urn:PegaRULES:SOAP:GuardrailsServicePkg:Services">
+<GuardrailsAPIStatus>Success: Report Name- /apps/pegashared/other_apps/DevOps/Reports/PegaGuardrailsReport_AnthemCSWGS.xls</GuardrailsAPIStatus>
+<GuardrailsComplianceScore>91</GuardrailsComplianceScore>
+<GuardrailsSeverityCount>4708</GuardrailsSeverityCount>
+<GuardrailsUnjustifiedSeverityCount>3118</GuardrailsUnjustifiedSeverityCount>
+<GuardrailsHighSeverityCount>132</GuardrailsHighSeverityCount>
+<GuardrailsUnjustifiedHighSeverityCount>17</GuardrailsUnjustifiedHighSeverityCount>
+<GuardrailsMediumSeverityCount>833</GuardrailsMediumSeverityCount>
+<GuardrailsUnjustifiedMediumSeverityCount>103</GuardrailsUnjustifiedMediumSeverityCount>
+<GuardrailsLowSeverityCount>3743</GuardrailsLowSeverityCount>
+<GuardrailsUnjustifiedLowSeverityCount>2998</GuardrailsUnjustifiedLowSeverityCount>
+</ns:GuardrailsServiceResponse>
+</soap:Body>
+</soap:Envelope>

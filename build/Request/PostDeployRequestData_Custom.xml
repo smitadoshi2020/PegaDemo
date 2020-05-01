@@ -1,0 +1,9 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:urn="urn:PegaRULES:SOAP:RuleCountCompare:v1">
+   <soap:Header/>
+   <soap:Body>
+      <urn:PostDeployVerify>
+		<ProductInsKey>RULE-ADMIN-PRODUCT SCRUM_FEBRUARYRELEASE 01.01.01 #20171213T002620.696 GMT</ProductInsKey>
+		<TargetEnvName>HOTFIX</TargetEnvName>
+      </urn:PostDeployVerify>
+   </soap:Body>
+</soap:Envelope>

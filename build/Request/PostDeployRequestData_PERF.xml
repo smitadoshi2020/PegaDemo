@@ -1,0 +1,9 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:urn="urn:PegaRULES:SOAP:RuleCountCompare:v1">
+   <soap:Header/>
+   <soap:Body>
+      <urn:PostDeployVerify>
+         <ProductInsKey>RULE-ADMIN-PRODUCT RELEASE_2019_MAY_OFFCYCLE 01.01.01 #20190325T151117.001 GMT</ProductInsKey>
+		 <TargetEnvName>PERF</TargetEnvName>
+      </urn:PostDeployVerify>
+   </soap:Body>
+</soap:Envelope>

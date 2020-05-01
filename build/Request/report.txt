@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<soap:Envelope
+xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+xmlns:soapenc="http://www.w3.org/2003/05/soap-encoding"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Body>
+<ns:InitiateServiceExportRAPResponse xmlns:ns="urn:PegaRULES:SOAP:ExportRAPPackage:Service">
+<ExportRAPStatus>Success: Prodoct Path is - /apps/pegashared/other_apps/DevOps/Products/SCRUM_MAYRELEASE_2018.zip(7111.0 kb)</ExportRAPStatus>
+</ns:InitiateServiceExportRAPResponse>
+</soap:Body>
+</soap:Envelope>

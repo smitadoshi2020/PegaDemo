@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:urn="urn:PegaRULES:SOAP:BrainsControllerServicePkg:Services">
+   <soap:Header />
+   <soap:Body>
+      <urn:ProcessBrainsData>
+         <Part>
+            <ApplicationScope>Application</ApplicationScope>
+            <RuleSetData>
+               <RuleSetName />
+               <RuleSetScope />
+               <RuleSetVersion />
+               <RuleSetLowerVersion />
+               <RuleSetHigherVersion />
+            </RuleSetData>
+            <ApplicationData>
+               <ApplicationName>AnthemCSWGS</ApplicationName>
+               <ApplicationVersion>01.01.01</ApplicationVersion>
+               <!--1 or more repetitions:-->
+               <RuleSetList>
+                  <RuleSetName>AntmCSWGSProd</RuleSetName>
+                  <RuleSetVersion />
+               </RuleSetList>
+               <RuleSetList>
+                  <RuleSetName>AntmCSWGS</RuleSetName>
+                  <RuleSetVersion />
+               </RuleSetList>
+               <RuleSetList>
+                  <RuleSetName>AntmCSWGSInt</RuleSetName>
+                  <RuleSetVersion />
+               </RuleSetList>
+               <RuleSetList>
+                  <RuleSetName>AntmCS</RuleSetName>
+                  <RuleSetVersion />
+               </RuleSetList>
+               <RuleSetList>
+                  <RuleSetName>AntmCSWGSBenefits</RuleSetName>
+                  <RuleSetVersion />
+               </RuleSetList>
+            </ApplicationData>
+            <!--Optional:-->
+            <UpdatedBy />
+         </Part>
+      </urn:ProcessBrainsData>
+   </soap:Body>
+</soap:Envelope>

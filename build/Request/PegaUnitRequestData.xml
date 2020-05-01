@@ -1,0 +1,11 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Body>
+<ns:PegaUnitTestUpgrade xmlns:ns="urn:PegaRULES:SOAP:AntmPegaUnit:V1">
+<UnitTestUpgradeAppDetails>
+<ApplicationName>COBImpDev:01.01.01</ApplicationName>
+<AccessGroup>COB:DevAdministrators</AccessGroup>
+<TestSuiteID/>
+</UnitTestUpgradeAppDetails>
+</ns:PegaUnitTestUpgrade>
+</soap:Body>
+</soap:Envelope>
