@@ -1,0 +1,10 @@
+<GuardrailsAPIStatus>Success</GuardrailsAPIStatus>
+<GuardrailsComplianceScore>90</GuardrailsComplianceScore>
+<GuardrailsHighSeverityCount>20</GuardrailsHighSeverityCount>
+<GuardrailsUnjustifiedSeverityCount>10</GuardrailsUnjustifiedSeverityCount>
+<GuardrailsSeverityCount>10</GuardrailsSeverityCount>
+<GuardrailsUnjustifiedHighSeverityCount>10</GuardrailsUnjustifiedHighSeverityCount>
+<GuardrailsMediumSeverityCount>10</GuardrailsMediumSeverityCount>
+<GuardrailsUnjustifiedMediumSeverityCount>10</GuardrailsUnjustifiedMediumSeverityCount>
+<GuardrailsLowSeverityCount>10</GuardrailsLowSeverityCount>
+<GuardrailsUnjustifiedLowSeverityCount>10</GuardrailsUnjustifiedLowSeverityCount>

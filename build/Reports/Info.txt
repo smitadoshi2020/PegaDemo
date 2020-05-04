@@ -1,0 +1,19 @@
+******************GuardRail Scores**************************************
+
+Guardrails Compliance Score = 90
+
+Guardrails Severity Count = 10
+
+Guardrails Unjustified Severity Count = 10
+
+Guardrails High Severity Count = 20
+
+Guardrails Unjustified High Severity Count = 10
+
+Guardrails Medium Severity Count = 10
+
+Guardrails Unjustified Medium SeverityCount = 10
+
+Guardrails LowSeverity Count = 10
+
+Guardrails Unjustified LowSeverity Count = 10
