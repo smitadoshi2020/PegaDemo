@@ -56,7 +56,7 @@ cd $bwd
 rm -rf $bwd/Reports/Info.txt
 mkdir -p $bwd/Reports
 #rm $bwd/Reports/Info.txt
-cd build
+cd ${bwd}/build
 compthreshold=89
 echo "<compthreshold>"$compthreshold"</compthreshold>"
 echo "Bamboo current working directory is: $bwd"
@@ -66,7 +66,7 @@ if [[ "$compscore" -le "$compthreshold" ]] ; then echo "The Guardrail compliance
 #End check for Guardrail compliance score
 
 #Check for Guardrail Unjustified high Severity Count count
-cd build
+cd ${bwd}/build
 threshold=15
 echo "<guardthreshold>"$threshold"</guardthreshold>"
 echo "Bamboo current working directory is: $bwd"
@@ -76,6 +76,7 @@ echo "Total high severity count in Guardrail is $highSeverity out of which unjus
 
 if [[ "$unjustifiedHighSeverity" -ge "$threshold" ]] ; then echo "Unjustified high severity count $unjustifiedHighSeverity in Guardrail is greater than the threshold count  $threshold.Build failed" >>/apps/DevOps/Reports/Info.txt; exit 3; fi
 
+cd ${bwd}/build
 #Reading the guardrail scores to send mail
 GCS=$(cat report_guardrail.txt|grep -w GuardrailsComplianceScore|cut -d'>' -f2 | cut -d'<' -f1|xargs)
 GSC=$(cat report_guardrail.txt|grep -w GuardrailsSeverityCount|cut -d'>' -f2 | cut -d'<' -f1|xargs)
