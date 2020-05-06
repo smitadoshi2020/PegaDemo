@@ -8,7 +8,7 @@ GuardrailRequestData_xml="$(pwd)/build/Request/GuardrailsRequestData.xml"
 
 
 #curl --header "Content-Type: text/xml;charset=UTF-8" --cacert /apps/tomcat7/tomcat-client.jks --insecure --data @$GuardrailRequestData_xml https://va33dlvpeg337.wellpoint.com:8443/prweb/PRSOAPServlet/SOAP/GuardrailsServicePkg/Services?WSDL > report_guardrail.txt
-ls -la
+cd build
 cat report_guardrail.txt
 result=$(cat report_guardrail.txt |grep GuardrailsAPIStatus|cut -d: -f1|cut -d">" -f2|xargs)
 echo "Result from Guardrail api call is: $result"
