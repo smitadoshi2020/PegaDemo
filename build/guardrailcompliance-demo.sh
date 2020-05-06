@@ -41,8 +41,8 @@ cd GuardRailReport/Build_${buildNumber}
 rm -rf $report_path/Build_${BuildNum}
 mkdir $report_path/Build_${BuildNum}
 
-mv $report_name  Build_${bamboo.buildNumber}
-cp $report_name  $report_path/Build_${BuildNum}
+##mv $report_name  Build_${bamboo.buildNumber}
+##cp $report_name  $report_path/Build_${BuildNum}
 
 #cd $report_path
 #mkdir -p GuardRailReport/$env/Build_${buildNumber}
