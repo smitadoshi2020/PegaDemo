@@ -37,3 +37,5 @@ echo -e "\n**********************Pega Unit Test Score***************************
 echo -e "\nPega Unit Test Score = $UnitTestScore" >>$bwd/Reports/Unit-Test-Info.txt
 echo -e "\n*****************************END*************************************" >>$bwd/Reports/Unit-Test-Info.txt
 #End of the script
+
+cat $bwd/Reports/Unit-Test-Info.txt
