@@ -56,7 +56,7 @@ cd $bwd
 rm -rf $bwd/Reports/Info.txt
 mkdir -p $bwd/Reports
 #rm $bwd/Reports/Info.txt
-cd ${bwd}
+cd build
 compthreshold=89
 echo "<compthreshold>"$compthreshold"</compthreshold>"
 echo "Bamboo current working directory is: $bwd"
@@ -66,7 +66,7 @@ if [[ "$compscore" -le "$compthreshold" ]] ; then echo "The Guardrail compliance
 #End check for Guardrail compliance score
 
 #Check for Guardrail Unjustified high Severity Count count
-cd ${bwd}/build
+cd build
 threshold=15
 echo "<guardthreshold>"$threshold"</guardthreshold>"
 echo "Bamboo current working directory is: $bwd"
