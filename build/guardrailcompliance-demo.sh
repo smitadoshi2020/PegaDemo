@@ -100,4 +100,5 @@ echo -e "\nGuardrails Unjustified Medium SeverityCount = $GUMSC" >>$bwd/Reports/
 echo -e "\nGuardrails LowSeverity Count = $GLSC" >>$bwd/Reports/Info.txt
 echo -e "\nGuardrails Unjustified LowSeverity Count = $GULCS" >>$bwd/Reports/Info.txt
 
+cat $bwd/Reports/Info.txt
 #End of the script
