@@ -5,6 +5,7 @@ bwd=$(pwd)
 PegaUnitRequestData_xml="$(pwd)/build/Request/PegaUnitRequestData.xml"
 
 ##curl -v --header "Content-Type: text/xml;charset=UTF-8" --cacert /apps/tomcat7/tomcat-client.jks --insecure --data @$PegaUnitRequestData_xml https://va33dlvpeg337.wellpoint.com:8443/prweb/PRSOAPServlet/SOAP/AntmPegaUnit/V1?WSDL > report_pegaunit.txt
+cd build
 cat report_pegaunit.txt
 
 TestScore=$(cat report_pegaunit.txt |grep TestScore|cut -d: -f1|cut -d">" -f2|cut -d"<" -f1|xargs)
@@ -28,7 +29,7 @@ mkdir -p $bwd/Reports
 ##EOF
 
 #Reading the test scores to send mail
-cd ${bwd}
+cd ${bwd}/build
 UnitTestScore=$(cat report_pegaunit.txt |grep TestScore|cut -d: -f1|cut -d">" -f2|cut -d"<" -f1|xargs)
 
 #Writing the values to the file to send mail
