@@ -66,7 +66,7 @@ if [[ "$compscore" -le "$compthreshold" ]] ; then echo "The Guardrail compliance
 #End check for Guardrail compliance score
 
 #Check for Guardrail Unjustified high Severity Count count
-cd ${bwd}
+cd ${bwd}/build
 threshold=15
 echo "<guardthreshold>"$threshold"</guardthreshold>"
 echo "Bamboo current working directory is: $bwd"
