@@ -8,6 +8,7 @@ GuardrailRequestData_xml="$(pwd)/build/Request/GuardrailsRequestData.xml"
 
 
 #curl --header "Content-Type: text/xml;charset=UTF-8" --cacert /apps/tomcat7/tomcat-client.jks --insecure --data @$GuardrailRequestData_xml https://va33dlvpeg337.wellpoint.com:8443/prweb/PRSOAPServlet/SOAP/GuardrailsServicePkg/Services?WSDL > report_guardrail.txt
+curl --header --insecure --data @$GuardrailRequestData_xml http://18.216.109.83:8080/prweb/PRSOAPServlet/SOAP/DemoServices/Services?WSDL > report_guardrail.txt
 cd build
 cat report_guardrail.txt
 result=$(cat report_guardrail.txt |grep GuardrailsAPIStatus|cut -d: -f1|cut -d">" -f2|xargs)
