@@ -1,21 +1,16 @@
-<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:urn="urn:PegaRULES:SOAP:GuardrailsServicePkg:Services">
-   <soap:Header/>
-   <soap:Body>
-      <urn:GuardrailsService>
-         <GuardrailsInput>
-            <!--1 or more repetitions:-->
-           
-           <ApplicationList>
-               <ApplicationName>COB</ApplicationName>
-               <ApplicationVersion>01.01.01</ApplicationVersion>
-            </ApplicationList>
-           
-           <ApplicationList>
-               <ApplicationName>COBFW</ApplicationName>
-               <ApplicationVersion>01.01.01</ApplicationVersion>
-            </ApplicationList>
-           
-         </GuardrailsInput>
-      </urn:GuardrailsService>
-   </soap:Body>
+<soap:Envelope
+xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Body>
+<ns:GuardrailVerification xmlns:ns="urn:PegaRULES:SOAP:DemoServices:DemoPOC">
+<GuardrailsInput>
+<!-- this element may appear multiple times --><ApplicationList>
+<ApplicationName>DevopsPoc</ApplicationName>
+<ApplicationVersion>01.01.01</ApplicationVersion>
+</ApplicationList>
+</GuardrailsInput>
+</ns:GuardrailVerification>
+</soap:Body>
 </soap:Envelope>
